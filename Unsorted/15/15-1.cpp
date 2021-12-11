@@ -1,6 +1,6 @@
+//https://inf-ege.sdamgia.ru/problem?id=35904
 //наименьшее натуральное А
 //ДЕЛ(A, 40) ∧ (ДЕЛ(780, x) → (¬ДЕЛ(A, x) → ¬ДЕЛ(180, x)))
-
 
 
 #include <bits/stdc++.h>
