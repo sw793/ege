@@ -23,7 +23,7 @@ int main(){
 		break;
 	int ctmp = 0;
 		for (int z = 2; z < i; z++){ //делители числа
-			if ((i % z == 0) && (i != z)){
+			if (i % z == 0){
 				ctmp++;
 				if (ctmp == 1)
 					mind = z;
