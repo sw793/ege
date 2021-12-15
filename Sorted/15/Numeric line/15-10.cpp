@@ -9,6 +9,6 @@ using namespace std;
 int main(){
 	for (double x = 19; x < 140; x+=0.1){
 		if ( (1 && ((35 <= x && x <= 57) <= (20 <= x && x <= 80))) == 0 )
-			cout << x << endl;
+			cout << x <<endl;
 	}
 }
