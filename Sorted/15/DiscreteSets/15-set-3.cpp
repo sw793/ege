@@ -10,9 +10,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-	set <int> p {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
-	set <int> q {3, 6, 9, 12, 15, 18, 21, 24, 27, 30};
-	for (int x = 1; x < 100000; x++){
+	set <int> p;
+	set <int> q;
+	for (int i = 2; i < 21; i++)
+		if (i % 2 == 0)
+			p.insert(i);
+	for (int i = 3; i < 31; i++)
+		if (i % 3 == 0)
+			q.insert(i);
+	for (int x = 1; x < 1000; x++){
 		if ( (((p.count(x) == 1) <= (0)) || ((1) <= (q.count(x) != 1))) == 0)
 			cout << x << endl; 
 	}
