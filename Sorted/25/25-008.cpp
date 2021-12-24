@@ -1,6 +1,5 @@
-//https://inf-ege.sdamgia.ru/problem?id=27856
-
-// [95632; 95650], числа, имеющие ровно шесть различных нечётных натуральных делителей
+/*https://inf-ege.sdamgia.ru/problem?id=27856
+[95632; 95650], числа, имеющие ровно шесть различных нечётных натуральных делителей*/
 
 #include <bits/stdc++.h>
 using namespace std;
