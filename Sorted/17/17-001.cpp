@@ -17,10 +17,8 @@ int main(){
 	int max17 = -10;	//максимум для кратных 17-ти
 	int n = 1000;       //кол-во элементов в файле
 	int arr[n];
-	
 	for (int i = 0; i < n; i++)
 		cin >> arr[i];
-	
 	for (int i = 0; i < n; i++){ //цикл для кратных 11-ти
 		if (arr[i] % 11 == 0){
 			c11++;
@@ -28,7 +26,6 @@ int main(){
 				min11 = arr[i];
 		}
 	}
-	
 	for (int i = 0; i < n; i++){ //цикл для кратных 17-ти
 		if (arr[i] % 17 == 0){
 			c17++;
@@ -36,7 +33,6 @@ int main(){
 				max17 = arr[i];
 		}
 	}
-
 	if (c17 < c11)
 		cout << c11 << " " << min11;
 	else
