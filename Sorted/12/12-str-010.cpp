@@ -15,15 +15,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    string s = "";
-    for (int i = 0; i < 54; i++)
-        s = s + "5";
-    s = s + "7";
-    while ((s.find("722") != -1) || (s.find("557") != -1)){
-        if (s.find("722") != -1)
-            s.replace(s.find("722"), 3, "57");
-        else 
-            s.replace(s.find("557"), 3, "72");
-        }
-    cout << s;
+	string s = "";
+	for (int i = 0; i < 54; i++)
+		s = s + "5";
+	s = s + "7";
+	while ((s.find("722") != -1) || (s.find("557") != -1)){
+		if (s.find("722") != -1)
+			s.replace(s.find("722"), 3, "57");
+		else 
+			s.replace(s.find("557"), 3, "72");
+		}
+	cout << s;
 }
