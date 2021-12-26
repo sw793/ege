@@ -38,3 +38,4 @@ int main(){
 	while (next_permutation(s.begin(), s.end());
 	cout << max;
 }
+//Ответ: 24
