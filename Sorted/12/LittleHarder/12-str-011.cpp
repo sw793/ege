@@ -21,21 +21,21 @@ int main(){
 		s+="5";
 	do{
 		string stmp = s;
-		while ((s.find("43") != -1) || (s.find("53") != -1)){
-			if (s.find("43") != -1)
-				s.replace(s.find("43"), 2, "33");
+		while ((stmp.find("43") != -1) || (stmp.find("53") != -1)){
+			if (stmp.find("43") != -1)
+				stmp.replace(stmp.find("43"), 2, "33");
 			else
-				s.replace(s.find("53"), 2, "433");
+				stmp.replace(stmp.find("53"), 2, "433");
 		}
 		int count3 = 0;
-		for (int i = 0; i < s.size(); i++){
+		for (int i = 0; i < stmp.size(); i++){
 			if (stmp[i] == '3')
 				count3++;
 		}
 		if (max < count3)
 			max = count3;
 	}
-	while (next_permutation(s.begin(), s.end());
+	while (next_permutation(s.begin(), s.end()));
 	cout << max;
 }
 //Ответ: 24
