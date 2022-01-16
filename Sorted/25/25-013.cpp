@@ -1,3 +1,5 @@
+/*условие скоро будет*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
