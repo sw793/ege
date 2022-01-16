@@ -19,21 +19,21 @@ int main(){
 	int mind = 0;
 	int maxd = -1;
 	for (int i = 700000; i < 1000000; i++){ //само число
-	if (count == 5)
-		break;
-	int ctmp = 0;
-		for (int z = 2; z < i; z++){ //делители числа
-			if (i % z == 0){
-				ctmp++;
-				if (ctmp == 1)
-					mind = z;
-				maxd = z;
+		if (count == 5)
+			break;
+		int ctmp = 0;
+			for (int z = 2; z < i; z++){ //делители числа
+				if (i % z == 0){
+					ctmp++;
+					if (ctmp == 1)
+						mind = z;
+					maxd = z;
+				}
 			}
-		}
-		if (((mind + maxd) % 10) == 8){
-			cout << i << " " << mind + maxd << endl;
-			count++;
-		}
+			if (((mind + maxd) % 10) == 8){
+				cout << i << " " << mind + maxd << endl;
+				count++;
+			}
 	}
 
 }
