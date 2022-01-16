@@ -15,15 +15,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-	int count = 0;
+	int count = 0; //счетчик подходящих чисел
 	int mind = 0;
 	int maxd = -1;
 	for (int i = 700000; i < 1000000; i++){ //само число
-		if (count == 5)
+		if (count == 5) // надо вывести только первые пять чисел
 			break;
 		int ctmp = 0;
-			for (int z = 2; z < i; z++){ //делители числа
-				if (i % z == 0){
+			for (int z = 2; z < i; z++){ //перебор делителей числа
+				if (i % z == 0){ 
 					ctmp++;
 					if (ctmp == 1)
 						mind = z;
