@@ -2,7 +2,6 @@
 using namespace std;
 int main(){
 	int iteration = 0; //счетчик находок подходящего числа
-	
 	//перебор чисел
 	for (int num = 550000; num < 555000; num++){
 		if (iteration == 5) //если нашлось пять подходящих чисел, то дальше не работаем
