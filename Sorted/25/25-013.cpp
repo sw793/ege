@@ -27,6 +27,5 @@ int main(){
 			cout << num << " " << sum << endl;
 			iteration++;
 		}
-		
 	}
 }
