@@ -15,7 +15,7 @@ int main(){
 	char otvet;
 	int max = -1;
 	
-	for (int i = 0; i < s.size(); i++){
+	for (int i = 0; i < s.size() - 1; i++){
 		if (s[i] == 'A'){
 			arr[int(s[i + 1])]++;
 			if (arr[int(s[i + 1])] > max){
