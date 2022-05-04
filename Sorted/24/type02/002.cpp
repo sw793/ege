@@ -10,7 +10,7 @@ int main(){
 	cin >> s;
 	int count = 0;
 	int max = -1;
-	for (int i = 0; i < s.size(); i++){
+	for (int i = 0; i < s.size() - 1; i++){
 		if (s[i] == s[i + 1]){
 			count++;
 			if (count > max) max = count;
