@@ -28,7 +28,7 @@ https://www.kpolyakov.spb.ru/cms/files/ege-stream/8/27-8b.txt
 
 #include <iostream>
 #include <vector>
-//#include <deque>
+#include <deque>
 using namespace std;
 int main(){
 	freopen("27-8b.txt", "r", stdin);
