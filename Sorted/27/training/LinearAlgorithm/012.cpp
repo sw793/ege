@@ -36,6 +36,7 @@ https://www.kpolyakov.spb.ru/cms/files/ege-stream/15/27-15b.txt
 #include <deque>
 using namespace std;
 int main(){
+	freopen("27-15b.txt", "r", stdin);
 	int n;
 	cin >> n;
 	int ai, aj, r = 4, smax = 0, num1, num2;
@@ -60,3 +61,4 @@ int main(){
 	if (smax == 0) cout << -1;
 	else cout << smax << " " << num1 << " " << num2;
 }
+// 1792 944 848 1904 985 919
