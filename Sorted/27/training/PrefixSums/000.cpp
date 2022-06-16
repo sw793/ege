@@ -14,7 +14,7 @@ int main(){
 	int n, t;
 	cin >> n;
 	vector <long long int> pr(n + 1);
-	for (int i = 1; i < n; i++) {
+	for (int i = 1; i <= n; i++) {
 		cin >> t;
 		pr[i] = pr[i - 1] + t;
 	}
